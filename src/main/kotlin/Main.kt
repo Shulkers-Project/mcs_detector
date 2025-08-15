@@ -6,7 +6,7 @@ import com.github.ajalt.clikt.core.main
 import com.github.ajalt.clikt.core.subcommands
 
 // Clikt SubCommands
-import dev.crystaworld.Commands.Analyze
+import dev.crystaworld.commands.Analyze
 
 // CLI main Class
 class MCDetector : CliktCommand(name = "mcdetector") {

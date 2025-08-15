@@ -1,12 +1,14 @@
 package dev.crystaworld.commands
 
+import kotlin.system.exitProcess
+
 import com.github.ajalt.clikt.core.CliktCommand
 import com.github.ajalt.clikt.core.Context
 import com.github.ajalt.clikt.parameters.options.option
 import com.github.ajalt.clikt.parameters.types.file
 import com.github.ajalt.clikt.parameters.types.path
+
 import dev.crystaworld.cc
-import kotlin.system.exitProcess
 
 class Analyze : CliktCommand(name = "analyze") {
     override fun help(context: Context) = "Analyze Minecraft jar files"
